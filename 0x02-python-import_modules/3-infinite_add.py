@@ -2,6 +2,6 @@
 if __name__ == "__main__":
     from sys import argv
     sum = 0
-    for i in argv[1:]:
-        sum += int(i)
-        print(sum)
+    for i in range(1, len(argv)):
+        sum += int(argv[1])
+        print("{:d}".format(sum))
