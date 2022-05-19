@@ -1,12 +1,8 @@
 #!/usr/bin/python3
-
-"""
-Task 0-square
-Write an empty class Square that defines a square
+""" Task 0-square
+Module with empty class
 """
 
 class Square:
-    """
-    class with no info
-    """
+    """ class with no info """
     pass
