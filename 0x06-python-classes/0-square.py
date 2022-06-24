@@ -3,6 +3,7 @@
 Module with empty class
 """
 
+
 class Square:
     """ class with no info """
     pass
