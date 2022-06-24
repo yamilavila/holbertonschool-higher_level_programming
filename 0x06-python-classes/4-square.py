@@ -4,6 +4,7 @@
 Task 4. Access and update private attribute
 """
 
+
 class Square:
     """
     Square class
@@ -29,15 +30,16 @@ class Square:
     def size(self, value):
         """
         if type(value) is int:
-        """ 
+        """
         if type(value) is int:
             self.__size = value
-        else: 
+        else:
             raise TypeError("size must be an integer")
         if value < 0:
             raise ValueError("size must be >= 0")
+
     def area(self):
         """
-        Methodto calculate the area of square
+        Method to calculate the area of square
         """
-        return self.__size ** 2
+    return self.__size ** 2
