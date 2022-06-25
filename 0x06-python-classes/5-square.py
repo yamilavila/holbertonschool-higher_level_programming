@@ -3,6 +3,7 @@
 Task 5: Printing a square
 """
 
+
 class Square:
     """
     Square class
