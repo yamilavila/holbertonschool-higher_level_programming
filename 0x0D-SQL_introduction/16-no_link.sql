@@ -1,5 +1,5 @@
---Task 16. Say my name
---lists all records of the table second_table
+-- Task 16. Say my name
+-- lists all records of the table second_table
 SELECT
 	score, name
 FROM
