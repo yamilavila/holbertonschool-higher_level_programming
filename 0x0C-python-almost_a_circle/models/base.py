@@ -2,13 +2,13 @@
 """Task 1: Base class
 The goal is to manage id attribute in all futures classes and
 avoid duplicatiing the same code."""
-
 import json
 
 
 class Base:
     """THis class will be the base of all other classes in this project"""
     __nb_objects = 0
+
 
     def __init__(self, id=None):
         """class constructor"""
