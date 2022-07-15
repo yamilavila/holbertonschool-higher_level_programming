@@ -4,9 +4,6 @@ The goal is to manage id attribute in all futures classes and
 avoid duplicatiing the same code."""
 
 import json
-import csv
-import random
-import turtle
 
 
 class Base:
