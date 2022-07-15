@@ -44,7 +44,7 @@ class Base:
 
     @staticmethod
     def save_to_file(cls, list_objs):
-        """this constructor writes the json string of the list_objs to a file"""
+        """this constructor writes the json string of the list_objs"""
         with open(cls.__name__ + ".json", 'w') as jfile:
             list_dict = []
             if list_objs = [x.to_dictionary() for x in list_objs]
@@ -60,5 +60,3 @@ class Base:
         except FileNotFoundError:
             return []
         return [cls.create(**x) for x in json_list]
-
-
