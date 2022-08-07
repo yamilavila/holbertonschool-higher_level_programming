@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Task 1.Filter states"""
+"""Task 2.Filter states by user input"""
 
 from sys import argv
 import MySQLdb
