@@ -7,7 +7,7 @@ fs.readFile(file, 'utf8', error);
 
 function error (bad, data) {
   if (bad) {
-   console.log(bad);
+    console.log(bad);
   } else {
     process.stdout.write(data);
   }
